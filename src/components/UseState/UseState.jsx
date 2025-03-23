@@ -19,7 +19,7 @@ const UseState = () => {
   const counterColor = () => {
     if (count === 10) return "text-green-500";
     if (count === 0) return "text-red-500";
-    return "text-red-500";
+    return "text-blue-500";
   };
 
   return (
