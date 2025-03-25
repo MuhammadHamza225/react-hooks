@@ -1,21 +1,18 @@
-import { useState } from 'react'
-
-import './App.css'
-// import UseState from './components/UseState/UseState'
-import SignUp from './components/UseState/SignUp'
+import "./App.css";
+// import UseState from "./components/UseState/UseState";
+// import SignUp from './components/UseState/SignUp'
+import UseEffect from './components/UseState/UseEffect'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-      {/* <UseState/> */}
-      <SignUp/>
+        {/* <UseState /> */}
+        {/* <SignUp/> */}
+       < UseEffect/>
       </div>
-      
     </>
-  )
+  );
 }
 
-export default App
+export default App;

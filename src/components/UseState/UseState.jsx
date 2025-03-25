@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const UseState = () => {
   const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    document.title = count;
+  }, [count]);
   const increament = () => {
     if (count < 10) {
       setCount(count + 1);
